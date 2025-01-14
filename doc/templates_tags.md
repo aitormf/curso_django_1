@@ -2,6 +2,8 @@
 
 [Referencia](https://docs.djangoproject.com/en/5.0/ref/templates/builtins/#built-in-tag-reference)
 
+[filtros](https://docs.djangoproject.com/en/5.0/ref/templates/builtins/#built-in-filter-reference)
+
 ## block
 seccion del template que se va a modificar.
 

@@ -9,6 +9,10 @@ el proyecto es el conjunto de apps para crear una página web.
 ## Views
 
 es el fichero donde se almacenan las vistas de la app.
+Pueden estár estructuradas de 2 formas:
+
+* FBV: Function Based Views, vistas basadas en funciones
+* CBV: [Class Based Views](https://docs.djangoproject.com/en/5.0/ref/class-based-views/), vistas basadas en clases. estas nos permite reutilizarlas mejor. [Link interesante](https://ccbv.co.uk/)
 
 ## Templates
 
