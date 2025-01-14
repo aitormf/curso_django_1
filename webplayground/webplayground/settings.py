@@ -224,7 +224,7 @@ CKEDITOR_5_FILE_UPLOAD_PERMISSION = "staff"  # Possible values: "staff", "authen
 
 # Auth redirects
 
-LOGIN_REDIRECT_URL='home' # actua como una especie de reverse
+# LOGIN_REDIRECT_URL='home' # actua como una especie de reverse
 LOGOUT_REDIRECT_URL='home' # actua como una especie de reverse
 
 
