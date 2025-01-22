@@ -30,6 +30,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'pages:pages' %}">Páginas</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'profiles:list' %}">Perfiles</a>
+            </li>
             </ul>
             <ul class="navbar-nav">
               {% if not request.user.is_authenticated %}
@@ -46,6 +49,12 @@
                 </form>
               </li>
               {% else %}
+              <li class="nav-item">
+                <form action="{% url 'messenger:list' %}" method="get">
+                  {% comment %} {% csrf_token %} {% endcomment %}
+                  <button class="btn btn-primary" type="submit">Mensajes</button>
+              </form>
+              </li>
               <li class="nav-item">
                 <form action="{% url 'profile' %}" method="post">
                   {% csrf_token %}
